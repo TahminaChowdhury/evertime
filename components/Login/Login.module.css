@@ -1,0 +1,59 @@
+.brandName{
+    color: var(--secondary);
+}
+
+.formContainer{
+    background-color: var(--primary);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 400px;
+    height: 500px;
+}
+.formContent{
+    margin: 20px;
+}
+
+.inputElementWrapper{
+    display: flex;
+    margin-top: 20px;
+}
+.inputField{
+    width: 350px;
+    outline: none;
+    border: none;
+    padding: 10px 0px 10px 0px;
+    font-size: 18px;
+    color: white;
+    border-bottom: 1px solid var(--secondary);
+    background-color: var(--primary);
+}
+
+.iconBtn{
+    margin-left: -35px;
+    font-size: 18px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: white;
+    border-bottom: 1px solid var(--secondary);
+    background-color: var(--primary);
+}
+.submitBtn{
+    background-color: var(--secondary);
+    width: 350px;
+    outline: 0;
+    border: 0;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 0 10px 0;
+    margin-top: 60px;
+}
