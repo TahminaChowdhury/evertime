@@ -4,61 +4,66 @@
   background-size: cover;
   object-fit: cover;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.form{
+.form {
   background-color: var(--primary);
   color: white;
   width: 450px;
-  height: 550px;
+  height: 600px;
   border-radius: 15px;
   padding: 0px 48px;
+  margin: 100px 0px;
 }
-.formTitle{
-    font-weight: 400;
-    margin-bottom: 64px;
+.formTitle {
+  font-weight: 400;
+  margin-bottom: 64px;
+  text-align: center;
 }
-.formDiv{
-    position: relative;
-    height: 30px;
-    margin-bottom: 48px;
+.formEmailInput {
+  position: relative;
+  height: 30px;
+  margin-bottom: 48px;
 }
-.formInput{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    font-family: inherit;
-    font-size: inherit;
-    color: white;
-    border: none;
-    outline: none;
-    background: none;
-    padding: 20px 10px;
-    border: 2px solid var(--secondary);
-    border-radius: 5px;
+.formPasswordInput {
+  position: relative;
+  height: 30px;
 }
-.formLabel{
-    position: absolute;
-    top: 8px;
-    left: 16px;
-    background-color: var(--primary);
-    color: white;
-    transition: top 200ms ease-in,
-    left 200ms ease-in;
+.formInput {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  color: white;
+  border: none;
+  outline: none;
+  background: none;
+  padding: 20px 10px;
+  border: 2px solid var(--secondary);
+  border-radius: 5px;
+}
+.formLabel {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  background-color: var(--primary);
+  color: white;
+  transition: top 200ms ease-in, left 200ms ease-in;
 }
 
 .formInput:focus ~ .formLabel,
-.formInput:not(:placeholder-shown).formInput:not(:focus) ~ .formLabel{
-    top: -10px;
-    padding: 0px 10px;
-    background: var(--primary);
-    font-size: small;
-} 
+.formInput:not(:placeholder-shown).formInput:not(:focus) ~ .formLabel {
+  top: -10px;
+  padding: 0px 10px;
+  background: var(--primary);
+  font-size: small;
+}
 
 /* .inputElementWrapper{
     display: flex;
@@ -83,5 +88,28 @@
   font-size: 18px;
   font-weight: 400;
   padding: 10px 0 10px 0;
+  margin-top: 40px;
   cursor: pointer;
-} 
+}
+.socialBtnsDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0px;
+}
+.socialBtns {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+.socialBtns img {
+  width: 30px;
+  height: 100%;
+  object-fit: cover;
+}
+.formContainer a {
+    text-decoration: none;
+    color: var(--secondary);
+    margin-left: 10px;
+}
