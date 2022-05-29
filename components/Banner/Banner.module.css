@@ -1,0 +1,38 @@
+.banner{
+  background-image: url('https://i.ibb.co/d4cGgRg/Rolex-Watch-HD-Wallpapers-New-Tabs-Theme.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 600px;
+}
+.watch {
+  position: relative;
+}
+
+.watch img {
+  width: 100%;
+  height: 380px;
+  border: none;
+  object-fit: cover;
+  object-position: center;
+}
+.categoryHeading {
+  color: white;
+  position: absolute;
+  bottom: 50px;
+  right: 16px;
+  display: flex;
+  flex-direction: column;
+}
+.shopNowBtn a{
+    text-decoration: none;
+    color: var(--primary);
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background: white;
+    padding: 10px;
+}

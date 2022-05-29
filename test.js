@@ -1,64 +1,39 @@
-const data = {
-    products:[
-        {   id: 1,
-            name: 'Watch',
-            image:'https://i.ibb.co/JFPzJ7z/515-00898.jpg',
-            category: "Men's watch",
-            brand: 'TAG Heuer',
-            color: 'black',
-            price: 180,
-            inStock: 20,
-            description: 'A popular watch'
-        },
-        {   id: 2,
-            name: 'Watch',
-            image:'https://i.ibb.co/JFPzJ7z/515-00898.jpg',
-            category: "Men's watch",
-            brand: 'TAG Heuer',
-            price: 180,
-            color: 'black',
-            inStock: 20,
-            description: 'A popular watch'
-        },
-        {   id: 3,
-            name: 'Watch',
-            image:'https://i.ibb.co/JFPzJ7z/515-00898.jpg',
-            category: "Men's watch",
-            brand: 'TAG Heuer',
-            price: 180,
-            color: 'black',
-            inStock: 20,
-            description: 'A popular watch'
-        },
-        {   id: 4,
-            name: 'Watch',
-            image:'https://i.ibb.co/JFPzJ7z/515-00898.jpg',
-            category: "Men's watch",
-            brand: 'TAG Heuer',
-            price: 180,
-            color: 'black',
-            inStock: 20,
-            description: 'A popular watch'
-        },
-        {   id: 5,
-            name: 'Watch',
-            image:'https://i.ibb.co/JFPzJ7z/515-00898.jpg',
-            category: "Men's watch",
-            brand: 'TAG Heuer',
-            price: 180,
-            color: 'black',
-            inStock: 20,
-            description: 'A popular watch'
-        },
-        {   id: 6,
-            name: 'Watch',
-            image:'https://i.ibb.co/JFPzJ7z/515-00898.jpg',
-            category: "Men's watch",
-            brand: 'TAG Heuer',
-            price: 180,
-            color: 'black',
-            inStock: 20,
-            description: 'A popular watch'
-        },
-    ]
-}
+const products = [
+    {
+        name: "WESTAR ORNATE LADIES CASUAL QUARTZ WATCH - 20274PPN603",
+        category: "female watch",
+        img: "https://i.ibb.co/mGYFBnk/f-1.webp",
+        price: 175,
+        brand: "Stainless Steel"
+    },
+    {
+        name: "WESTAR ORNATE LADIES CASUAL QUARTZ WATCH - 20274PPN603",
+        category: "female watch",
+        img: "https://i.ibb.co/mGYFBnk/f-1.webp",
+        price: 175,
+        brand: "Stainless Steel"
+    },
+    {
+        name: "WESTAR ORNATE LADIES CASUAL QUARTZ WATCH - 20274PPN603",
+        category: "female watch",
+        img: "https://i.ibb.co/mGYFBnk/f-1.webp",
+        price: 175,
+        brand: "Stainless Steel"
+    },
+    {
+        name: "WESTAR ORNATE LADIES CASUAL QUARTZ WATCH - 20274PPN603",
+        category: "female watch",
+        img: "https://i.ibb.co/mGYFBnk/f-1.webp",
+        price: 175,
+        brand: "Stainless Steel"
+    },
+    {
+        name: "WESTAR ORNATE LADIES CASUAL QUARTZ WATCH - 20274PPN603",
+        category: "female watch",
+        img: "https://i.ibb.co/mGYFBnk/f-1.webp",
+        price: 175,
+        brand: "Stainless Steel"
+    },
+]
+
+

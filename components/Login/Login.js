@@ -91,8 +91,8 @@ const Login = () => {
             textAlign: 'center',
           }}
         >
-          Don't have an account?
-          <Link href="/signup">Signup</Link>
+          Dont have an account?
+          <Link href="/signup">Sign Up</Link>
         </Typography>
       </Grid>
     </Grid>

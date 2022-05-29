@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
 
     <AppBar position="static"
-    sx={{backgroundColor: "black", color: 'white', boxShadow: 'none'}}
+    sx={{backgroundColor: "white", color: 'black', boxShadow: 'none'}}
     >
       <CssBaseline />
       <Toolbar>
