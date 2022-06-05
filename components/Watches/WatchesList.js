@@ -1,8 +1,7 @@
 import React from 'react';
-import { useRouter } from 'next/router';
-import classes from './Watches.module.css';
+import classes from './WatchesList.module.css'
+import AllWatches from './AllWatches';
 import Slider from 'react-slick';
-import { CollectionsOutlined } from '@mui/icons-material';
 
 // next button
 function SampleNextArrow(props) {
@@ -28,17 +27,7 @@ function SamplePrevArrow(props) {
   );
 }
 
-
-const Watches = (props) => {
-
-  const router = useRouter();
-
-
-  const showDetailsHandler = () => {
-    router.push('/' + props._id);
-  };
-
- 
+const WatchesList = (props) => {
   // slider settings
   const settings = {
     infinite: true,
@@ -75,22 +64,15 @@ const Watches = (props) => {
     ],
   };
   return (
-    <div style={{ margin: '0px 30px' }}>
-
-      <h1 className={classes.productsHeading}>Our BestSellers</h1>
-
-      {/* slider */}
+    <div style={{ margin: '100px 30px' }}>
+      <h1 className={classes.watchesHeading}>Our BestSellers</h1>
       <Slider {...settings}>
-        {props.watches.map((watch, index) => {
-          return (
-            <div key={index}>
-  
-            </div>
-          );
-        })}
+        {props.watches.map((watch) => (
+          <AllWatches key={watch.id} watch={watch} />
+        ))}
       </Slider>
     </div>
   );
 };
 
-export default Watches;
+export default WatchesList;

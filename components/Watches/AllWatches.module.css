@@ -1,0 +1,43 @@
+.watchContainer{
+    width: 400px;
+    height: 500px;
+}
+.watches{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.watches img{
+    width: 250px;
+    height: 250px;
+}
+.watchBrand{
+    margin: 0;
+    padding: 0;
+   padding-top: 10px;
+   text-transform: uppercase;
+}
+.watchName{
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.watchPrice{
+    margin: 0;
+    padding: 0;
+}
+.viewBtn{
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    padding: 10px 100px;
+    background-color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    border: 2px solid var(--primary);
+    cursor: pointer;
+}
+.viewBtn:hover{
+    background-color: var(--primary);
+    color: white;
+}

@@ -1,7 +1,9 @@
 import { MongoClient } from 'mongodb';
 import Head from 'next/head';
 import Banner from '../components/Banner/Banner';
-import Products from '../components/Watches/Watches';
+import WatchesList from '../components/Watches/WatchesList';
+
+
 
 export default function HomePage(props) {
   return (
@@ -10,7 +12,7 @@ export default function HomePage(props) {
         <title>EverTime</title>
       </Head>
       <Banner></Banner>
-      <Products watches ={props.watches}></Products>
+      <WatchesList watches={props.watches}></WatchesList>
     </>
   );
 }
@@ -26,7 +28,7 @@ export async function getStaticProps() {
     props:{
       watches: watches.map(watch => ({
         name: watch.name,
-        img1: watch.name,
+        img1: watch.img1,
         brand: watch.brand,
         price: watch.price,
         id: watch._id.toJSON()
